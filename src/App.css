@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #121212;
+  color: #eaeaea;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+}
+
+.app-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Today's Suggestion card */
+.suggestion-card {
+  background: linear-gradient(135deg, #e8f8ee, #f4fff8);
+  color: #1a1a1a;
+  border-radius: 14px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.suggestion-heading {
+  margin: 0 0 0.75rem 0;
+  font-size: 1.1rem;
+  color: #2e7d32;
+  font-weight: 700;
+}
+
+.suggestion-name {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin: 0.25rem 0;
+}
+
+.suggestion-rating {
+  margin: 0.25rem 0 1rem 0;
+  color: #555;
+}
+
+.cooked-button {
+  padding: 0.6rem 1.1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.95rem;
+  transition: background-color 0.15s ease;
+}
+
+.cooked-button:hover {
+  background-color: #3d8b40;
+}
+
+.similar-section {
+  margin-top: 1.25rem;
+}
+
+.similar-label {
+  margin: 0 0 0.5rem 0;
+  font-weight: 700;
+}
+
+.similar-chips {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.similar-chip {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 0.4rem 0.9rem;
+  font-size: 0.9rem;
+}
+
+/* Add a Dish form */
+.form-card {
+  background-color: #1e1e1e;
+  border-radius: 14px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.form-card h2 {
+  margin-top: 0;
+  font-size: 1.3rem;
+}
+
+.form-row {
+  margin-bottom: 1rem;
+}
+
+.form-row label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+.form-row input,
+.form-row select {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background-color: #2a2a2a;
+  color: #eaeaea;
+  font-size: 0.95rem;
+}
+
+.form-row input:focus,
+.form-row select:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.save-button {
+  padding: 0.65rem 1.3rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.save-button:hover {
+  background-color: #3d8b40;
+}
+
+/* Dish list */
+.list-heading {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.dish-card {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.85rem;
+}
+
+.dish-card h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.dish-card p {
+  margin: 0.2rem 0;
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+.empty-state {
+  color: #888;
+  font-style: italic;
+}
