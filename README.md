@@ -33,8 +33,12 @@ Meal Planner lets you save the dishes your family already loves, along with thei
 - **TheMealDB API** — for real recipe data and instructions
 - **Lucide Icons** — for the visual icons throughout the app
 
-## About This Project
+## Status
 
-This app was built with the help of AI (Anthropic's Claude), guiding the development process from planning to coding, styling, and deployment — step by step, as a learning project.
+🚧 This project is still a work in progress. New features and improvements are being added regularly.
+
+## Suggestions & Feedback
+
+Have an idea to make this app better? Found a bug? Feel free to email your suggestions to **italhaniaz@gmail.com** — all feedback is welcome!
 
 **Built by:** Talha Niaz
