@@ -1,5 +1,7 @@
 # 🍽️ Meal Planner
 
+🔗 **Live App:** [meal-planner-hub.vercel.app](https://meal-planner-hub.vercel.app/)
+
 A simple web app that helps families decide what to cook every day — based on what they actually love to eat.
 
 ## The Problem
